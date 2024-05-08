@@ -23,9 +23,9 @@ def get_suffixes(df):
 #     df.drop(columns=['title_split'], inplace=True)
 #     return prefix_ct
 
-matches_df = pd.read_csv('./output03-29-2024.csv')
-yt_ia_matches = matches_df['YouTube IA Link']
-rt_ia_matches = matches_df['RoosterTeeth Site IA Link']
+matches_df = pd.read_csv('./matches_5-8-24.csv')
+yt_ia_matches = matches_df['YT IA Link']
+rt_ia_matches = matches_df['RT IA Link']
 
 
 # Get Youtube videos and filter out existing matches
